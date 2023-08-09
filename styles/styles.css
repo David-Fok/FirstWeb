@@ -1,0 +1,95 @@
+
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 48px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    background-color: blanchedalmond;
+    margin: auto;
+    width: max-content;
+    line-height: 30px;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.fake-button:hover,
+.blue-hover:hover {
+    text-decoration: underline;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+header {
+    height: 150px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 60px;
+    font-weight: 200;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.index img {
+    width: 300px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+.index h2 {
+    line-height: 36px;
+}
+
+.index p {
+    padding-bottom: 12px;
+}
+
+.index .fake-button {
+    width: 250px;
+    padding: 10px;
+}
